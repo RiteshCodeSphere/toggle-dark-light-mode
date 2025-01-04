@@ -1,0 +1,28 @@
+body {
+    padding: 25px;
+    background-color: #fff;
+    color: #000;
+    font-size: 24px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+
+.button {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
